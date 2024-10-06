@@ -1,0 +1,15 @@
+.wrapper1{
+    background-color: #fad390;
+    height: 100% !important;
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+    width:400px;
+    
+}
+@media (max-width: 800px) {
+    
+    .wrapper{
+        width:300px;
+    }
+  }

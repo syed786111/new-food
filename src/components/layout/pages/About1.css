@@ -1,0 +1,39 @@
+
+.banner-text{
+    position:absolute;
+    margin:0 auto;
+        z-index: 20000;color:blue;left:45%;top:250px;
+}
+.card img{
+    border-radius:50%;width:150px;height:150px;
+        margin:0 auto;
+        object-fit: contain;
+}
+.about-box{
+    padding: 0px;
+    width:100%;
+    background-color: #fff;
+}
+.wrapper{
+    padding: 15px;
+    width: 90%;
+    margin: 0 auto;
+}
+.card{
+    border:none !important;
+    padding-right: 20px;
+    padding-left:20px ;
+}
+@media (max-width: 768px){
+    .about-team{
+        margin-top: 130px;
+    }
+    .banner-text {
+        
+        left: 36%;
+        top: 582px;
+    }
+    .card{
+    margin-top: 10px;
+    }
+}

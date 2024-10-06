@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+
+    
+    display: grid;
+    /* width: 100%; */
+    /* column-gap: 20px; */
+    overflow: hidden;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    
+
+
+}
+
+.item {
+
+    background-color: #fad390;
+    height: 350px;
+    padding: 50px 0px;
+    text-align: center;
+    /* width:300px; */
+    /* display: inline; */
+    border-radius: 20px;
+    
+    margin: 20px 20px 20px 20px;
+
+
+
+
+
+}
+.AddCartBtn{
+     position: relative;
+    top:0px; 
+   border-radius: 50%;
+    border: 2px solid red;
+}
+@media (max-width:768px){
+    .item{
+        max-width: 100%;
+    }
+}

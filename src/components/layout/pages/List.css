@@ -1,0 +1,25 @@
+.list-content{
+    position: absolute;
+    margin:auto;
+    padding:0px;
+    left:0px;
+    right:0px;
+    top:-200px;
+    bottom:0px;
+    /* background-color: skyblue; */
+    width:60%;
+    border-radius: 20px;
+    height:500px;
+    padding-top: 150px;
+    width:100%;padding:0px;background:#fff;
+}
+.list-wrapper{
+    width:95%;margin:0px auto;padding:38px;
+}
+@media (max-width:768px){
+    .list-content{
+        width: 100%;
+        z-index: -1;
+        top:-110px;
+    }
+}

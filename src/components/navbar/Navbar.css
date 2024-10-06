@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: brown;
+}
+
+.navbar-nav {}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.navbar .navbtn {
+    display: none !important;
+    background-color: brown !important;
+    color: #fff !important;
+    
+    border: none !important;
+    outline: none !important;
+}
+.active {
+    color: #fad390 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fad390 !important;
+}
+
+.dropdown-toggle:hover {
+    color: #fad390 !important;
+}
+
+.navbar-nav .nav-link {
+
+    font-family: "Playfair Display", serif !important;
+    font-size: 20px !important;
+    font-weight: 100 !important;
+    font-style: normal !important;
+    text-align: left !important;
+    text-decoration: none;
+    color: #fff;
+    border: none !important;
+    outline: none !important;
+}
+
+.navbar-nav a.nav-link:hover::after {
+    display: block;
+}
+li.dropdown{
+margin-top: 10px !important;
+}
+.navbar-nav a.nav-link::after {
+   
+    position: absolute;
+    display: none;
+    content: "";
+    height: 2px;
+    /* top: 65px; */
+    width: 65px;
+    
+    background-color: #fad390;
+}
+
+.navbar {
+    padding: 0 50px !important;
+}
+
+.navbar {
+    padding-left: 70px !important;
+}
+
+.navbar-nav li.nav-item {
+    margin-right: 10px !important;
+}
+
+li.dropdown {
+    margin-right: 20px;
+}
+.navbar img{
+    object-fit: contain;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.dropdown .dropdown-toggle {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Playfair Display", serif !important;
+    font-size: 20px !important;
+    font-weight: 100 !important;
+    text-align: left !important;
+    border: none !important;
+    outline: none !important;
+    text-decoration: none;
+}
+
+@media (max-width:768px) {
+    .navbar img{
+        width:30px;
+        height: 30px;
+    }
+    .navbar {
+        padding: 0px !important;
+    }
+    .navbar-nav{
+        position: absolute;
+        left: 0px;
+        padding-left: 10px !important;
+        z-index: 5000;
+        background-color: brown;
+    }
+
+    .navbar .navbtn {
+        display: block !important;
+        position: absolute;
+        right: 15px;
+        top:10px;
+    }
+}

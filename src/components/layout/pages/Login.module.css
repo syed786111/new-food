@@ -1,0 +1,129 @@
+.tableContainer{
+    
+    position: absolute;
+    margin:auto;
+    padding:0px;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    background-color: #fad390;
+    width:60%;
+    border-color: red;
+    border-radius: 20px;
+    height:500px;
+    padding-top: 150px;
+    
+
+      
+   }
+   
+   .td{
+    width:400px;
+    text-align: right;
+    border:2px solid red !important;
+   }
+   .label  {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    background-color: #fad390 !important;
+  
+  }
+  
+  .btnadd{
+    width:100%;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .btnadd:hover{
+    background-color: #7bed9f;
+  }
+  
+  .logininput{
+    border: none;
+    padding: 15px;
+    text-align: left;
+    outline: none;
+    background-color: #fff;
+    min-width: 100%;
+    margin-bottom: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    
+    box-shadow: rgb(211, 84, 0) 0px 3px 8px !important;
+   
+  }
+   
+   .table{
+  
+   
+    
+    
+    /* display:flex;
+    flex-flow: row wrap;
+    flex-basis: 100%;
+    background-color: red; */
+
+}
+.googleLoginBtn{
+    position: relative;
+    width:100%;
+}
+.logoutBtn{
+    position: relative;
+    width: 100%;
+}
+.loginFailed{
+    /* background-color:inherit; */
+    /* border: 5px solid red; */
+    color:red;
+    font-weight: bold;
+    font-size: 14px;
+    border: 2px solid red;
+    border-radius: 20px;
+    /* margin-top: 150px; */
+    margin-left: 40%;
+    padding-left: 10px;
+    padding-top: 10px;
+    width:300px;
+    /* z-index: 500; */
+    height:50px;
+}
+@media (max-width: 800px) {
+    .table{
+        width:350px;
+    }
+    .tableContainer{
+        width:100%;
+        top:200px;
+        z-index: -1;
+    }
+    .loginFailed{
+        margin-left: 10%;
+    }
+}
+@media (max-width: 360px){
+    .table{
+   
+    
+     
+    
+ 
+    }
+    /* .tableContainer{
+        
+        width:200%;
+        margin: 0px;
+        height:300px;
+    } */
+    }
